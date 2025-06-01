@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Blog Web</title>
 </head>
 <style>
     body {
@@ -47,7 +47,7 @@
         color: linen;
     }
 
-    h1{
+    h1 {
         font-family: sans-serif;
         color: azure;
         position: relative;
@@ -56,7 +56,7 @@
         font-style: italic;
     }
 
-    .para2{
+    .para2 {
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
 
@@ -90,27 +90,28 @@
 
     .get-started:hover {
         transition: 0.4s ease;
-        transform:  translateY(0) scale(1.1);
+        transform: translateY(0) scale(1.1);
         box-shadow: 2px 2px 2px #0ff;
     }
- 
-    img{
+
+    img {
         border-radius: 10px;
         display: inline-flex;
     }
 
-    .box3:hover{
-        display: inline-flex;
-        transition: 0.5s;
-        transform: scale(1.05);
-    }
-    .box4:hover{
+    .box3:hover {
         display: inline-flex;
         transition: 0.5s;
         transform: scale(1.05);
     }
 
-    .box5:hover{
+    .box4:hover {
+        display: inline-flex;
+        transition: 0.5s;
+        transform: scale(1.05);
+    }
+
+    .box5:hover {
         display: inline-flex;
         transition: 0.5s;
         transform: scale(1.05);
@@ -119,29 +120,46 @@
 
 
 
-    .navbar{
+    .navbar {
         animation: fadeslide 1.0s ease forwards;
     }
 
-    
+
     @keyframes fadeslide {
-        from{
+        from {
             opacity: 0;
             transform: translateY(-40px);
         }
 
-        to{
+        to {
             opacity: 1;
             transform: translateY(0px);
         }
     }
 
-    
-    iframe{
+
+    iframe {
         border-radius: 13px;
         box-shadow: 0.5px 0.5px 0.5px #cfbfbf;
     }
 
+    footer {
+        color: rgb(112, 101, 86);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        border: 0.7px solid #838383;
+        width: 20%;
+        border-radius: 30px;
+        position: relative;
+        left: 540px;
+        top: -200px;
+    }
+
+    .img1 {
+        position: relative;
+        left: 90px;
+
+    }
 </style>
 
 <body>
@@ -153,13 +171,15 @@
             <li><a href="#">Services</a></li>
         </ul>
     </div>
-         <span>
-            <div class="get-started">
-        <h3>Start Here</h3>
-    </div>
-         </span>
+    <span>
+        <div class="get-started">
+            <h3>Start Here</h3>
+        </div>
+    </span>
 
-         <div><h1>1. Lorem ipsum</h1></div>
+    <div>
+        <h1>1. Lorem ipsum</h1>
+    </div>
 
     <div class="box1">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi natus sint, rerum architecto
@@ -175,23 +195,26 @@
             dolore harum soluta laboriosam quidem ad repudiandae dicta perspiciatis architecto, numquam voluptates
             provident nulla!</p>
     </div>
-<br>
-<br><br><br>
-<br>
-<br>
+    <br>
+    <br><br><br>
+    <br>
+    <br>
     <div class="img">
-        <img class="box3" src="https://sm.mashable.com/t/mashable_in/article/e/everything/everything-you-need-to-know-about-spotify-wrapped-2024_r5wm.1248.jpg"
+        <img class="box3"
+            src="https://sm.mashable.com/t/mashable_in/article/e/everything/everything-you-need-to-know-about-spotify-wrapped-2024_r5wm.1248.jpg"
             alt="spotify image" width="500px">
-            &nbsp; &nbsp; &nbsp;
-            <img class="box4"
+        &nbsp; &nbsp; &nbsp;
+        <img class="box4"
             src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWFjYm9vayUyMHByb3xlbnwwfHwwfHx8MA%3D%3D"
             alt="" height="335px" width="500px">
-            &nbsp;&nbsp;&nbsp;
-            <img class="box5" src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202012/Netflix-New-Feature-Audio-Only_1200x768.jpeg?size=690:388alt="" height="335px" width="440px">
+        &nbsp;&nbsp;&nbsp;
+        <img class="box5"
+            src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202012/Netflix-New-Feature-Audio-Only_1200x768.jpeg?size=690:388alt="" height="
+            335px" width="440px">
 
-    </div>    
-<br>
-    
+    </div>
+    <br>
+
     <div class="para2">
         <p style="color: aqua;" ;>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum tempora
             aspernatur, consequatur accusantium qui ipsa ducimus, sapiente, id quae autem dolores. Nisi consequatur sint
@@ -201,18 +224,35 @@
             voluptates culpa repellendus?.</p>
     </div>
 
-    <div><h1>2.Lorem ipsum</h1></div>
-    <div class="box1"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi asperiores nesciunt labore ea adipisci doloribus quia tenetur magni, in nemo quis error quam, suscipit cum quae accusantium officia harum? Aperiam corrupti repudiandae debitis rem perferendis quam alias nam voluptas blanditiis ab? Laboriosam minima ex praesentium!</p></div>
+    <div>
+        <h1>2.Lorem ipsum</h1>
+    </div>
+    <div class="box1">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi asperiores nesciunt labore ea adipisci
+            doloribus quia tenetur magni, in nemo quis error quam, suscipit cum quae accusantium officia harum? Aperiam
+            corrupti repudiandae debitis rem perferendis quam alias nam voluptas blanditiis ab? Laboriosam minima ex
+            praesentium!</p>
+    </div>
     <br><br><br><br><br><br>
 
     <div class="img">
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <iframe class="box3" width="560" height="315" src="https://www.youtube.com/embed/njX2bu-_Vw4?si=OFz7rPPo4WlCQTDa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <iframe class="box4" width="560" height="315" src="https://www.youtube.com/embed/YVNpUHZKVM0?si=tT_DBUGncCaBmXbK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </div>    
+        <iframe class="box3" width="560" height="315"
+            src="https://www.youtube.com/embed/njX2bu-_Vw4?si=OFz7rPPo4WlCQTDa" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <iframe class="box4" width="560" height="315"
+            src="https://www.youtube.com/embed/YVNpUHZKVM0?si=tT_DBUGncCaBmXbK" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
 
-    <div><h1>3. Lorem ipsum</h1></div>
+    <div>
+        <h1>3. Lorem ipsum</h1>
+    </div>
 
     <div class="box1">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi natus sint, rerum architecto
@@ -228,23 +268,26 @@
             dolore harum soluta laboriosam quidem ad repudiandae dicta perspiciatis architecto, numquam voluptates
             provident nulla!</p>
     </div>
-<br>
-<br><br><br>
-<br>
-<br>
+    <br>
+    <br><br><br>
+    <br>
+    <br>
     <div class="img">
-        <img class="box3" src="https://sm.mashable.com/t/mashable_in/article/e/everything/everything-you-need-to-know-about-spotify-wrapped-2024_r5wm.1248.jpg"
+        <img class="box3"
+            src="https://sm.mashable.com/t/mashable_in/article/e/everything/everything-you-need-to-know-about-spotify-wrapped-2024_r5wm.1248.jpg"
             alt="spotify image" width="500px">
-            &nbsp; &nbsp; &nbsp;
-            <img class="box4"
+        &nbsp; &nbsp; &nbsp;
+        <img class="box4"
             src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWFjYm9vayUyMHByb3xlbnwwfHwwfHx8MA%3D%3D"
             alt="" height="335px" width="500px">
-            &nbsp;&nbsp;&nbsp;
-            <img class="box5" src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202012/Netflix-New-Feature-Audio-Only_1200x768.jpeg?size=690:388alt="" height="335px" width="440px">
+        &nbsp;&nbsp;&nbsp;
+        <img class="box5"
+            src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202012/Netflix-New-Feature-Audio-Only_1200x768.jpeg?size=690:388alt="" height="
+            335px" width="440px">
 
-    </div>    
-<br>
-    
+    </div>
+    <br>
+
     <div class="para2">
         <p style="color: aqua;" ;>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum tempora
             aspernatur, consequatur accusantium qui ipsa ducimus, sapiente, id quae autem dolores. Nisi consequatur sint
@@ -253,6 +296,14 @@
             vitae fugiat illum, expedita eius laborum omnis consequuntur, debitis, adipisci officiis? Doloremque
             voluptates culpa repellendus?.</p>
     </div>
+
+    <img class="img1" src="blackgradient.png" alt="" height="335px" width="90%">
+
+    <footer>
+        <div>Author: Shiven</div>
+        <div> all copyrights&copy; reserved 2025 </div>
+    </footer>
+
 
 </body>
 
