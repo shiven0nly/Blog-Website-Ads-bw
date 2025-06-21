@@ -32,11 +32,12 @@ Stay up-to-date with the latest in tech — from startup news and gadget reviews
 ![image](https://github.com/user-attachments/assets/88580f91-dcd4-4e32-9237-495a4a2b5d87)
 
 
-### 📂 Clone this repository:
-```bash
-git clone https://github.com/shiven0nly/Tech-Blog-Website.git/
 
 # Author: "Shiven"
 **Follow on github for more**
+
+### 📂 Clone this repository:
+```bash
+git clone https://github.com/shiven0nly/Tech-Blog-Website.git/
 
 
