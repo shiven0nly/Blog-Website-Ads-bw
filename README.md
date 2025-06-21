@@ -13,7 +13,7 @@ Stay up-to-date with the latest in tech — from startup news and gadget reviews
 - Double click the 'Index.html' Section
 
 ## ✨ Features
-
+- 💫 **AOS** Animation on scroll (added just now)
 - 📰 **Homepage** showcasing latest articles with hero sections and featured posts
 - 🧭 **Responsive design** that looks great on desktop, tablet, and mobile
 - 🧠 **Clean layout** inspired by TechCrunch’s minimalist style
