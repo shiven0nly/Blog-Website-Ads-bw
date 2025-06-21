@@ -6,6 +6,12 @@ Stay up-to-date with the latest in tech — from startup news and gadget reviews
 
 ---
 
+## How to Use:
+- Download the Zip file from the code section
+- Extract the Zip File
+- Look the 'Index.html' section in it
+- Double click the 'Index.html' Section
+
 ## ✨ Features
 
 - 📰 **Homepage** showcasing latest articles with hero sections and featured posts
