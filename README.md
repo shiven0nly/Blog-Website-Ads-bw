@@ -37,6 +37,7 @@ Stay up-to-date with the latest in tech — from startup news and gadget reviews
 ## Screenshot:
 ![image](https://github.com/user-attachments/assets/88580f91-dcd4-4e32-9237-495a4a2b5d87)
 
+![image](https://github.com/user-attachments/assets/2b8b14c5-c6f3-450b-a220-bc7b2cc97594)
 
 
 # Author: "Shiven"
