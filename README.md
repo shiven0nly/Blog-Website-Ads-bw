@@ -1,6 +1,6 @@
 
 # 📰 Tech-Blog-Website
-
+*U can Visit the site from here* : https://shiven0nly.github.io/Tech-Blog-Website/
 A modern, responsive **Tech Blog** inspired by [TechCrunch](https://techcrunch.com), built with **HTML**, **CSS**, and **JavaScript(add later)**.  
 Stay up-to-date with the latest in tech — from startup news and gadget reviews to deep-dives into innovation and emerging technologies.
 
